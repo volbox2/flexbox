@@ -1,0 +1,26 @@
+.part1{
+    background-color: #1f2937;
+    display:flex;
+    flex-direction: column;
+    padding:0px 32px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    max-width: 60px;
+    height:auto;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    gap:16px;
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
