@@ -2,25 +2,62 @@
     background-color: #1f2937;
     display:flex;
     flex-direction: column;
-    padding:0px 32px;
+    padding:0px 125px;
+    font-family:'Roboto', sans-serif;
+    gap:10px;
 }
 .header{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap:50px;
+}
+
+.heroleft{
+    width: 470px;
+    padding-bottom: 100px;
+}
+
+.website{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 800;
+}
+
 #logo{
     max-width: 60px;
     height:auto;
 }
 
+#party{
+    max-width: 400px;
+    height:auto;
+}
 ul{
     list-style-type: none;
     display:flex;
-    gap:16px;
+    gap:48px;
 }
 
-a{
+.white{
     text-decoration: none;
     color:#E5E7EB;
+    font-size:18px;
+}
+
+button{
+    background-color: #3882F6;
+    font-weight:bold;
+    text-align: center;
+    border-radius: 12px;
+    width:100px;
+    height:24px;
 }
