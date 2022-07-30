@@ -156,3 +156,14 @@ p{
     border-color: white;
     border:2px solid;
 }
+
+.footer{
+    display:flex;
+    padding:20px 40px;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.footertext{
+    color:white;
+}
